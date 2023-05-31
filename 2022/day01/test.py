@@ -81,10 +81,10 @@ class TestDemoTwo:
         assert max_elf == 45000
 
 
-    # def test_input_one(self):
-    #     """
-    #     Solution tested against AoC
-    #     """
-    #     file = 'input.txt'
-    #     max_elf = part_two(file)
-    #     assert max_elf == 66719
+    def test_input_one(self):
+        """
+        Solution tested against AoC
+        """
+        file = 'input.txt'
+        max_elf = part_two(file, 3)
+        assert max_elf == 198551
