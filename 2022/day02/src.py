@@ -1,7 +1,7 @@
 """
 Day 2, 2022 of Advent of Code: Python
 """
-from typing import List, Dict, Union
+from typing import List, Dict
 from enum import IntEnum
 
 import read_file as rf
