@@ -52,9 +52,9 @@ def part_two(filename: str, top_n:int) -> int:
 
 if __name__ == '__main__':
     if DEMO_FLAG:
-        FILE_NAME = 'demo.txt'
+        FILE_NAME = '../demo.txt'
     else:
-        FILE_NAME = 'input.txt'
+        FILE_NAME = '../input.txt'
     print(f'FILE: {FILE_NAME}')
 
     output_one = part_one(FILE_NAME)

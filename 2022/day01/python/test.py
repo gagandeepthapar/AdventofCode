@@ -4,6 +4,9 @@ Test cases for Day 1, 2022 Advent of Code
 
 from main import read_file, part_one, part_two
 
+DEMO_FILE = '../demo.txt'
+INPUT_FILE = '../input.txt'
+
 class TestReadFile:
     """ 
     Test class for read file
@@ -21,7 +24,7 @@ class TestReadFile:
         """ 
         Copy of Demo values 
         """
-        file = "demo.txt"
+        file = DEMO_FILE
         max_elf = read_file(file)
         assert max_elf == [[1_000, 2_000, 3_000],
                            [4_000],
@@ -46,7 +49,7 @@ class TestDemoOne:
         """ 
         Solution provided by Advent of Code
         """
-        file = "demo.txt"
+        file = DEMO_FILE
         max_elf = part_one(file)
         assert max_elf == 24000
 
@@ -55,7 +58,7 @@ class TestDemoOne:
         """
         Solution tested against AoC
         """
-        file = 'input.txt'
+        file = INPUT_FILE
         max_elf = part_one(file)
         assert max_elf == 66719
 
@@ -76,7 +79,7 @@ class TestDemoTwo:
         """ 
         Solution provided by Advent of Code
         """
-        file = "demo.txt"
+        file = DEMO_FILE
         max_elf = part_two(file, 3)
         assert max_elf == 45000
 
@@ -85,6 +88,6 @@ class TestDemoTwo:
         """
         Solution tested against AoC
         """
-        file = 'input.txt'
+        file = INPUT_FILE
         max_elf = part_two(file, 3)
         assert max_elf == 198551
