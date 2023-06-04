@@ -1,3 +1,6 @@
+# text files
+*.txt
+
 # makefile
 make*
 
