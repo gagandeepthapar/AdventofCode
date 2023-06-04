@@ -4,6 +4,9 @@ make*
 # c++ executables
 *.out
 
+# cmake build dir
+build/*
+
 # Byte-compiled / optimized / DLL files
 __pycache__/
 *.py[cod]
