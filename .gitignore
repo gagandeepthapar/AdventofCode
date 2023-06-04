@@ -1,5 +1,5 @@
 # text files
-*.txt
+CMake*
 
 # makefile
 make*
