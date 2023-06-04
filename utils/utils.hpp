@@ -1,5 +1,5 @@
-#ifndef READ_FILE_HPP
-#define READ_FILE_HPP
+#ifndef UTILS_HPP
+#define UTILS_HPP
 
 #include <string>
 #include <vector>
