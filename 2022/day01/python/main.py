@@ -6,7 +6,7 @@ from typing import List
 
 DEMO_FLAG = 0
 
-def read_file(filename:str) -> List[int]:
+def read_file(filename:str) -> List[List[int]]:
     """ 
     Read in file of list of values separated by newlines
     """
